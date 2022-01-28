@@ -1,0 +1,37 @@
+.top{
+    height: 80px;
+    background-color:antiquewhite;
+    display: flex;
+   border: 10cm;
+   justify-content: space-between;
+   padding: 0px  0px 0px 105px;
+   border-radius: 1em; 
+   
+}
+.head1{
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+.box{
+   position:absolute;
+   right: 10em;
+   top: 10em;
+
+    color:rgb(138, 182, 88);
+    font-weight: 400;
+
+   
+    
+}
+.head2{
+    font-size: 2em;
+}
+
+.image{
+    border-radius: 1em;
+    height: auto;
+    margin:5em 0em 0em 5em;
+    height: 20em;
+    opacity: 3;
+}

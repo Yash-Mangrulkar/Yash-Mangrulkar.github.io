@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+nav{
+ height: 80px;
+ background-color: rgba(0, 0, 0, 0.856);
+ display: flex;
+border: 10cm;
+justify-content: space-between;
+padding: 0px  0px 0px 105px;
+border-radius: 1em; 
+
+}
+
+
+.logo{
+    background-color: rgb(139, 192, 174);
+    border-radius: 5px;
+    height:40px;
+    margin-top:10px ;
+    color:rgb(32, 4, 68);
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+    font-size:30px;
+    border-left:20 px;
+
+    
+
+
+
+    
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+
+}
+ 
+nav ul li{
+
+    margin:0px 5px;
+}
+
+nav ul li a{
+    color: rgb(223, 239, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding:8px 10px;
+    border-radius: 3em;
+    
+
+    
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    background: white;
+    color:black;
+    transition: all 0.5 sec ease;
+}
+
+.container{
+background-color:rgb(159, 194, 182);
+    align-items: center;
+    border-radius: 5em;
+    width:65em;
+    margin-left:7em;
+    padding-bottom: 5px;
+    padding-top:7px;
+    margin-bottom:10px;
+    
+
+
+}
+.image{
+    height: 16em;    
+    width: 15em;
+    border-radius: 4em;
+    margin-left: 10em;
+    margin-top:20px;
+    padding:3em;
+    padding-top: 3em;
+    float:center;
+    position: relative;
+    
+
+}
+
+
+
+
+.user{
+    color: rgb(22, 20, 20);
+    padding: 10px 50px 50px 50px;
+
+}
+
+.info{
+
+   margin-top: -20em;
+   margin-left:25em;
+   margin-bottom:5em;
+
+   text-decoration: solid;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.name{
+background-color:rgba(0, 0, 0, 0.767);
+border-radius: 16px;
+
+    font-size: 2em;
+    color:aliceblue;
+    padding:10px 10px 10px 10px;
+
+}
+.inside{
+
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align-last: center;
+    padding-top: 10px;
+
+}
